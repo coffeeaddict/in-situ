@@ -1,0 +1,23 @@
+In-situ
+=======
+
+In-situ (or in-place) editing for objects that have attributes
+(Like ActiveRecord objects).
+
+
+Example
+=======
+
+Example goes here.
+
+
+Todo
+=====
+* Put up an example there...
+* Create observers so that I need not render a span for every in-situ
+  attribute, but am able to use h1, h2, etc.
+* Use Rails.cache somehow to store the options of the in-situ assignment and
+  carry them over to the form, the re-display and the cancel.
+* Figure out how I18n blends in to all this
+
+Copyright (c) 2010 Hartog de Mik, released under the MIT license
